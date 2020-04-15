@@ -1,10 +1,8 @@
+import github
 import argparse
 import json
 import os
-
 from tqdm import tqdm
-
-from github.MainClass import *
 
 GITHUB_TOKEN = open('token.txt', 'r').read().strip()
 
@@ -53,7 +51,7 @@ def main():
     repo_name = args.repo_name
     output_path = args.output_path
     logging_path = args.logging_path
-    github_api = Github(GITHUB_TOKEN)
+    github_api = github.Github(GITHUB_TOKEN)
     run(github_api, repo_name, output_path, logging_path)
 
 
