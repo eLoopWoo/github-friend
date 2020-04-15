@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 from github.MainClass import *
 
-GITHUB_TOKEN = open('token.txt', 'r').read()
+GITHUB_TOKEN = open('token.txt', 'r').read().strip()
 
 
 def run(github_api, repo_name, output_path, logging_path):
