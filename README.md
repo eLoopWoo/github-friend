@@ -16,7 +16,7 @@ Create Personal Access Token and paste it in `./token.txt` ([might help](https:/
 ## Example
 
 ```
-▶ python3 main.py -r kelseyhightower/nocode
+▶ python3 main.py -r Naetw/CTF-pwn-tips
 ```
 
 ## Helper
