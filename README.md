@@ -4,8 +4,13 @@ Intersect github repositories stargazers with your following & followers
 
 ## Install
 
+Create Personal Access Token and paste it in `./token.txt` ([might help](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line))
+
 ```
-pip install -r requirements.txt
+▶ git clone https://github.com/eLoopWoo/github-friend.git
+▶ cd github-friend
+▶ echo $TOKEN > token.txt # github personal access token
+▶ pip install -r requirements.txt
 ```
 
 ## Example
